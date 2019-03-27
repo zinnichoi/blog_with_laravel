@@ -1,10 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Repositories\Implement;
 
-use App\IRepositories\BlogRepositoryInterface;
 use App\Models\Blog;
-use Illuminate\Container\Container as App;
+use App\Repositories\BlogRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 
 class BlogRepository extends BaseRepository implements BlogRepositoryInterface

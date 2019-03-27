@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Repositories\Implement;
 
-use App\IRepositories\UserRepositoryInterface;
 use App\Models\User;
+use App\Repositories\UserRepositoryInterface;
 
 class UserRepository extends BaseRepository implements UserRepositoryInterface
 {

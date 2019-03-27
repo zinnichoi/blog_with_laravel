@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\BlogRequest;
-use App\IServices\BlogServiceInterface;
 use App\Models\Blog;
+use App\Services\BlogServiceInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 

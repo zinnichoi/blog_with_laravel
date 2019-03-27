@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Implement;
 
-use App\IRepositories\RepositoryInterface;
-use App\IServices\UploadFileServiceInterface;
+use App\Services\UploadFileServiceInterface;
 use Illuminate\Http\UploadedFile;
 
 class UploadFileService implements UploadFileServiceInterface

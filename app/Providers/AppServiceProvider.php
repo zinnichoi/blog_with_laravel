@@ -2,16 +2,16 @@
 
 namespace App\Providers;
 
-use App\IRepositories\BlogRepositoryInterface;
-use App\IRepositories\UserRepositoryInterface;
-use App\IServices\BlogServiceInterface;
-use App\IServices\UploadFileServiceInterface;
-use App\IServices\UserServiceInterface;
-use App\Repositories\BlogRepository;
-use App\Repositories\UserRepository;
-use App\Services\BlogService;
-use App\Services\UploadFileService;
-use App\Services\UserService;
+use App\Repositories\BlogRepositoryInterface;
+use App\Repositories\Implement\BlogRepository;
+use App\Repositories\Implement\UserRepository;
+use App\Repositories\UserRepositoryInterface;
+use App\Services\BlogServiceInterface;
+use App\Services\Implement\BlogService;
+use App\Services\Implement\UploadFileService;
+use App\Services\Implement\UserService;
+use App\Services\UploadFileServiceInterface;
+use App\Services\UserServiceInterface;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

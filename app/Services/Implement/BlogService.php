@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Implement;
 
-use App\IRepositories\BlogRepositoryInterface;
-use App\IRepositories\UserRepositoryInterface;
-use App\IServices\BlogServiceInterface;
-use App\IServices\UploadFileServiceInterface;
 use App\Models\BaseModel;
 use App\Models\Blog;
+use App\Repositories\BlogRepositoryInterface;
+use App\Repositories\UserRepositoryInterface;
+use App\Services\BlogServiceInterface;
+use App\Services\UploadFileServiceInterface;
 use App\Ulti\Constants;
 use Illuminate\Support\Facades\Auth;
 

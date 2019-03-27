@@ -1,6 +1,6 @@
 <?php
 
-namespace App\IServices;
+namespace App\Services;
 
 interface UserServiceInterface extends BaseServiceInterface
 {

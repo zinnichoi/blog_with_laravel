@@ -6,7 +6,7 @@
  * Time: 9:51 AM
  */
 
-namespace App\IServices;
+namespace App\Services;
 
 use App\Models\BaseModel;
 

@@ -6,7 +6,7 @@
  * Time: 9:11 AM
  */
 
-namespace App\IRepositories;
+namespace App\Repositories;
 
 use App\Models\BaseModel;
 

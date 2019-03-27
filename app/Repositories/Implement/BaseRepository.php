@@ -6,10 +6,10 @@
  * Time: 9:13 AM
  */
 
-namespace App\Repositories;
+namespace App\Repositories\Implement;
 
-use App\IRepositories\BaseRepositoryInterface;
 use App\Models\BaseModel;
+use App\Repositories\BaseRepositoryInterface;
 use Illuminate\Container\Container as App;
 
 abstract class BaseRepository implements BaseRepositoryInterface

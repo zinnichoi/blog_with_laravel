@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Implement;
 
-use App\IRepositories\UserRepositoryInterface;
-use App\IServices\UploadFileServiceInterface;
-use App\IServices\UserServiceInterface;
 use App\Models\BaseModel;
+use App\Repositories\UserRepositoryInterface;
+use App\Services\UploadFileServiceInterface;
+use App\Services\UserServiceInterface;
 use App\Ulti\Constants;
 use Illuminate\Support\Facades\Hash;
 

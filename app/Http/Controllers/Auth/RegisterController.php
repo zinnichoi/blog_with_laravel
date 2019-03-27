@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Requests\UserRequest;
-use App\IServices\UserServiceInterface;
 use App\Http\Controllers\Controller;
+use App\Services\UserServiceInterface;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
